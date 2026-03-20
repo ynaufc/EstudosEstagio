@@ -43,5 +43,7 @@ Ao final deste estudo, devo, junto a minha equipe estar apta a:
 - [x] Manter um histórico de commits semântico e organizado.
 
 ---
+## 🎓 Certificado Alura
+[![Certificado Alura]](https://cursos.alura.com.br/formalCertificate/702ae99e-5047-44a2-9f03-cc4aec8e5f1a)
 **Desenvolvido por:** [Any Mélani](https://github.com/seu-usuario)  
 *UFC - Campus Quixadá*
