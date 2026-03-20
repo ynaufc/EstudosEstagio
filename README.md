@@ -46,7 +46,7 @@ Ao final deste estudo, devo, junto a minha equipe estar apta a:
 ---
 
 ## 🎓 Certificação Alura 
-<img src="assets/lura.png" width="500" alt="Certificação Alura">
+<img src="img/lura.png" width="500" alt="Certificação Alura">
 
 ### [Git e GitHub: repositório, commit e versões](https://cursos.alura.com.br/formalCertificate/702ae99e-5047-44a2-9f03-cc4aec8e5f1a)
 
