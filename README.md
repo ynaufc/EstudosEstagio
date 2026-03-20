@@ -43,7 +43,22 @@ Ao final deste estudo, devo, junto a minha equipe estar apta a:
 - [x] Manter um histórico de commits semântico e organizado.
 
 ---
-## 🎓 Certificado Alura
-[![Certificado Alura]](https://cursos.alura.com.br/formalCertificate/702ae99e-5047-44a2-9f03-cc4aec8e5f1a)
-**Desenvolvido por:** [Any Mélani](https://github.com/seu-usuario)  
+---
+
+## 🎓 Certificação Alura
+### [Git e GitHub: repositório, commit e versões](https://cursos.alura.com.br/formalCertificate/702ae99e-5047-44a2-9f03-cc4aec8e5f1a)
+
+Neste curso, desenvolvi habilidades fundamentais para o controle de versão de projetos de software, incluindo:
+
+* **Configuração inicial:** Instalação e configuração de identidade no Git.
+* **Ciclo de vida de arquivos:** Entendimento dos estados *Untracked*, *Staged*, *Modified* e *Committed*.
+* **Gestão de Repositórios:** Criação de repositórios locais e sincronização com repositórios remotos no GitHub.
+* **Trabalho com Histórico:** Visualização de logs, comparação de versões e restauração de arquivos.
+* **Colaboração:** Utilização de comandos como `git push`, `git pull` e `git fetch` para trabalhar em equipe.
+* **Ignorando Arquivos:** Criação e configuração do arquivo `.gitignore` para manter o repositório limpo.
+
+<p align="center">
+  <img src="https://inscricoes.alura.com.br/course/git-github-repositorio-commit-versoes/certificate/image" width="500">
+</p>
+**Desenvolvido por:** [Any Mélani](https://github.com/ynaufc)  
 *UFC - Campus Quixadá*
