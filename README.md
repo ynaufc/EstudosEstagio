@@ -45,7 +45,9 @@ Ao final deste estudo, devo, junto a minha equipe estar apta a:
 ---
 ---
 
-## 🎓 Certificação Alura
+## 🎓 Certificação Alura 
+<img src="img/lura.png" width="500">
+
 ### [Git e GitHub: repositório, commit e versões](https://cursos.alura.com.br/formalCertificate/702ae99e-5047-44a2-9f03-cc4aec8e5f1a)
 
 Neste curso, desenvolvi habilidades fundamentais para o controle de versão de projetos de software, incluindo:
