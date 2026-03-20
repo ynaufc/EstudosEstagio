@@ -57,5 +57,7 @@ Neste curso, desenvolvi habilidades fundamentais para o controle de versão de p
 * **Colaboração:** Utilização de comandos como `git push`, `git pull` e `git fetch` para trabalhar em equipe.
 * **Ignorando Arquivos:** Criação e configuração do arquivo `.gitignore` para manter o repositório limpo.
 
+Estudo em progresso...
+
 **Desenvolvido por:** [Any Mélani](https://github.com/ynaufc)  
 *UFC - Campus Quixadá*
