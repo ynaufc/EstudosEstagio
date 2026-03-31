@@ -1,34 +1,86 @@
-# Estudo sobre Padrão de Commits
+# Commit Pattern
 
-## 📝 Descrição
-Estudar boas práticas de escrita de commits para manter o histórico do projeto organizado e legível.
+## Estrutura de um Commit
 
----
+Um commit deve seguir o padrão:
 
-## 📂 Conteúdo da Documentação
+tipo(escopo): mensagem curta
 
-### 1. O que são commits?
-Um commit é um registro das alterações feitas no código em um determinado momento. Ele funciona como um "ponto de salvamento" (snapshot) que permite rastrear a evolução do projeto e reverter mudanças se necessário.
+descrição mais detalhada (opcional)
 
-### 2. Boas práticas
-* **Seja atômico:** Cada commit deve conter apenas uma alteração lógica (ex: não misture correção de bug com nova funcionalidade).
-* **Use o imperativo:** Escreva mensagens como comandos (ex: "Adiciona", "Corrige", "Remove").
-* **Título conciso:** O resumo deve ser breve e direto.
-
-### 3. Padrão escolhido: Conventional Commits
-Utilizamos prefixos para identificar o tipo de alteração:
-* `feat:` Uma nova funcionalidade.
-* `fix:` Correção de um erro.
-* `docs:` Alterações apenas na documentação.
-* `style:` Formatação e estilo de código (espaços, ponto e vírgula, etc).
-* `refactor:` Mudança no código que não corrige bug nem adiciona funcionalidade.
-
-### 4. Exemplos
-* `feat: adiciona sistema de login`
-* `fix: corrige erro de autenticação no banco de dados`
-* `docs: atualiza guia de instalação no README`
+rodapé (opcional)
 
 ---
 
-## ✅ Resultado Esperado
-* Equipe entendendo como organizar commits.
+## Tipos de Commit
+
+| Tipo     | Descrição |
+|----------|----------|
+| feat     | Nova funcionalidade |
+| fix      | Correção de bug |
+| refactor | Refatoração sem alteração de comportamento |
+| perf     | Melhoria de performance |
+| docs     | Alterações na documentação |
+| test     | Adição ou ajuste de testes |
+| chore    | Tarefas gerais (dependências, build, etc.) |
+
+---
+
+## Exemplos
+
+feat(login): adiciona autenticação com JWT  
+fix(api): corrige erro 500 ao salvar usuário  
+refactor(auth): simplifica validação de token  
+
+---
+
+## Boas Práticas
+
+- Use no máximo 50 caracteres na mensagem principal
+- Escreva no imperativo (ex: "corrige", "adiciona")
+- Seja claro e direto
+- Utilize escopo quando fizer sentido
+
+---
+
+## Corpo do Commit
+
+Utilize quando precisar explicar melhor a mudança:
+
+fix(auth): corrige expiração do token
+
+O token expirava imediatamente devido a erro no cálculo de tempo.
+Agora utiliza Date.now() corretamente.
+
+---
+
+## Escopo
+
+Ajuda a identificar onde ocorreu a mudança:
+
+feat(api)
+fix(frontend)
+refactor(database)
+
+---
+
+## Versionamento Semântico
+
+| Tipo | Impacto |
+|------|--------|
+| feat | MINOR |
+| fix  | PATCH |
+| BREAKING CHANGE | MAJOR |
+
+Exemplo:
+
+feat(api): adiciona suporte a múltiplos usuários
+
+BREAKING CHANGE: altera estrutura de retorno da API
+
+---
+
+## Dica Final
+
+Sempre pense: alguém entenderia esse commit daqui a meses?
+Se não, melhore a descrição.
